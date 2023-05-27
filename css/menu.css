@@ -1,0 +1,76 @@
+/* --------------- Logo e Menu ----------------- */
+header {
+  max-width: 1105px;
+  min-width: 360px;
+  height: 112px;
+  margin: 200px auto;
+}
+
+.logo {
+  max-width: 601px;
+  min-width: 340px;
+  height: 43px;
+  border-bottom: black solid 3px;
+  margin: 10px auto;
+  
+}
+
+.logo h1 {
+  font-size: 1.88rem;
+  font-family: "Karma";
+  text-align: center;
+}
+
+nav {
+  width: 395px;
+  height: 35px;
+  display: flex;
+  margin: 10px auto;
+  gap: 20px;
+}
+
+.menu {
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+nav .sobre {
+  background-color: #012E40;
+  border: #000405 solid 3px;
+  padding: 5px 6px;
+}
+
+nav .sobre:hover {
+  background-color: #106e93;
+  border: #035372 solid 3px;
+}
+
+nav .contato {
+  background-color: #3CA6A6;
+  border: #288585 solid 3px;
+  padding: 5px 50px;
+}
+
+nav .contato:hover {
+  background-color: #5fd3d3;
+  border: #3eaeae solid 3px;
+} 
+
+@media (min-width: 481px) and (max-width: 625px) {
+  header {
+    max-width: 1105px;
+    min-width: 360px;
+    height: 112px;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+ header {
+  height: 325px;
+ }
+}

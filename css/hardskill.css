@@ -1,0 +1,261 @@
+/* --------------- Sobre e HardSkill ----------------- */
+/* Fazer o margin depois em relação com min-width e max-width */
+body {
+  margin: 0;
+}
+
+#container_modulo1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#primeiro_modulo {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container_habilidades {
+  width: 750px;
+  height: 950px;
+  border-radius: 80px 0 80px 0;
+  margin: 19.2px auto 72px -300px;
+  background-color: #012e40;
+  position: relative;
+}
+
+.hard_skill {
+  width: 761px;
+  height: 485px;
+  border-radius: 18px;
+  background-color: #026873e1;
+  position: absolute;
+  margin: 32px 78px 32px 283px;
+  display: block;
+}
+
+#list_hard {
+  width: 700px;
+  height: 140px;
+  display: inline;
+  overflow-x: auto;
+  margin: 30px 30px;
+  position: absolute;
+  display: flex;
+  gap: 22px;
+  background-color: #1e6c75;
+  padding: 10px;
+}
+
+#list_hard::-webkit-scrollbar {
+  width: 10px;
+}
+
+#list_hard::-webkit-scrollbar-thumb {
+  background-color: #07515a;
+}
+
+#list_hard::-webkit-scrollbar-track {
+  background: #017786;
+}
+
+#list_hard ul {
+  display: inline-flex;
+  gap: 25px;
+}
+
+#text_hard::-webkit-scrollbar {
+  width: 15px;
+}
+
+#text_hard::-webkit-scrollbar-thumb {
+  background-color: #3ca6a6;
+  border: black solid 0.5px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+#text_hard::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* ------------- Botões Hard-Skill--------------- */
+#list_hard div {
+  cursor: pointer;
+}
+
+#list_hard img {
+  border: #b7000000 solid 3px;
+  border-radius: 16px;
+  filter: saturate(0.15) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.7));
+}
+
+#list_hard img:hover {
+  border: #083338 solid 8px;
+  filter: saturate(1);
+  transition: 0.3s;
+}
+
+/* ------------- Texto de Descrições --------------- */
+#text_hard {
+  background-color: white;
+  margin: 200px 30px auto 30px;
+  max-height: 220px;
+  padding: 10px;
+  border: #000405 solid 2px;
+  border-radius: 8px;
+  position: absolute;
+  overflow-x: auto;
+}
+
+.text {
+  font-size: 16px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 25px;
+  color: black;
+  line-height: 20px;
+}
+
+.text a {
+  font-weight: 700;
+  color: #012e40;
+  text-decoration: underline;
+}
+.text a:hover {
+  color: #5fd3d3;
+}
+
+.text p a:first-child:hover {
+  color: red;
+}
+
+.text {
+  display: none;
+}
+
+@media (min-width: 960px) and (max-width: 1024px) {
+  .container_habilidades {
+    width: 850px;
+    height: 900px;
+    margin-left: 20px;
+  }
+  .descricao {
+    width: 264px;
+    height: 474px;
+  }
+  .descricao img {
+    width: 180px;
+    height: 200px;
+  }
+  .hard_skill {
+    width: 610px;
+  }
+  #list_hard {
+    width: 550px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+  .container_habilidades {
+    width: 605px;
+    height: 900px;
+    margin-left: 8px;
+  }
+  .hard_skill {
+    width: 600px;
+    margin: 32px 78px 32px 100px;
+  }
+  #list_hard {
+    width: 540px;
+  }
+}
+
+@media (min-width: 625px) and (max-width: 769px) {
+  .container_habilidades {
+    width: 473px;
+    height: 960px;
+    margin-left: -120px;
+    margin-top: 300px;
+  }
+  .hard_skill {
+    width: 580px;
+    height: 444px;
+    left: -270px;
+    top: 500px;
+  }
+  #list_hard {
+    width: 520px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 625px) {
+  .container_habilidades {
+    /* margin-top improvisado */
+    margin-top: 400px;
+    width: 425px;
+    height: 780px;
+    margin-left: -70px;
+  }
+  .sobre {
+    display: flex;
+    gap: 20px;
+  }
+  .sobre img {
+    margin-left: 3px;
+  }
+  .sobre_sub {
+    color: #ffffff;
+  }
+  .sobreMim {
+    width: 400px;
+  }
+  .hard_skill {
+    width: 450px;
+    height: 450px;
+    margin: 32px 0px 32px 283px;
+    left: -260px;
+    top: 780px;
+  }
+  #list_hard {
+    width: 390px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  .container_habilidades {
+    width: 100%;
+    height: 640px;
+    margin: 8px 0  0 8px;
+    border-radius: inherit;
+    border-top: #07394d solid 20px;
+  }
+  .sobre {
+   margin-left: 55px;
+  }
+  .container_sobreMim {
+    margin-left: 100px;
+  }
+  #list_hard img {
+    width: 80px;
+  }
+  #list_hard {
+    width: 280px;
+    max-height: 118px;
+    margin: 5px 5px;
+  }
+  .hard_skill {
+    width: 300px;
+    height: 450px;
+    margin-right: 0px;
+    left: -178px;
+    top: 780px;
+  }
+  #text_hard {
+    margin-top: 150px;
+    margin-left: 8px;
+    width: 280px;
+    min-height: 270px;
+  }
+}

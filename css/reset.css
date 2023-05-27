@@ -1,0 +1,14 @@
+/* --------------- Config Geral ----------------- */
+*,
+*:before,
+*:after,
+input {
+  margin: 0;
+  padding: 0;
+	border: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font: inherit;
+	vertical-align: baseline;
+}

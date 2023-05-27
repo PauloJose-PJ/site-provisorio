@@ -1,0 +1,13 @@
+/* Organizações dos css */
+@import "./reset.css";
+@import "./menu.css";
+@import "./eu.css"; 
+@import "./hardskill.css";
+@import "./informacoes.css";
+@import "./contato.css";
+@import "./footer.css";
+
+
+  /* Para fazer o elemento desaparecer não tera como fazer uma classe construtora como no caso do text onde ele seria o padrão isso ocarrerá muito conteudo na css mas ae tem que ter uma certa dosagem */
+  @media (max-width: 860px) {
+}
