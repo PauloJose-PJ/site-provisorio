@@ -7,18 +7,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site Provisório</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./img/menu/menuBolacha.svg">
 </head>
 
 <body>
 
   <header>
-    <div class="logo">
-      <h1>SITE PROVISÓRIO</h1>
+    <div class="nav_main">
+      <nav class="nav_lista">
+        <div class="logo">
+          <a href="#">
+            <h1>SITE PROVISÓRIO</h1>
+          </a>
+        </div>
+        <div id="menuItens">
+          <ul>
+            <li>
+              <a href="#" class="nav contato menu">Sobre</a>
+            </li>
+            <li>
+              <a href="#" class="nav contato menu">HardSkill</a>
+            </li>
+            <li>
+              <a href="#" class="nav contato menu">Atenção</a>
+            </li>
+            <li>
+              <a href="#" class="nav contato menu">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile_menu">
+          <button id="button_mobile" onclick="clickMenu()"><img class="icon" src="./img/menu/bolacha.svg" alt="menuBolacha"></button>
+        </div>
+      </nav>
+      <div class="itens-menu open">
+        <ul>
+          <li>
+            <a href="#" class="contato menu">Sobre</a>
+          </li>
+          <li>
+            <a href="#" class="contato menu">HardSkill</a>
+          </li>
+          <li>
+            <a href="#" class="contato menu">Atenção</a>
+          </li>
+          <li>
+            <a href="#" class="contato menu">Contato</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <nav>
-      <a href="#" class="sobre menu">Sobre e HardSkill</a>
-      <a href="#" class="contato menu">Contato</a>
-    </nav>
   </header>
 
   <section id="container_modulo1">
@@ -37,7 +75,7 @@
           <section class="container_sobreMim">
             <div class="sobreMim">
               <p>
-                Meu nome é Paulo José eu desejo e estudo para um dia ser Front-End, apesar das dificuldades que, não somente eu tenho mas que todos enfrentamos em diferentes aspectos, talvez isso que nós torna único.
+                Meu nome é Paulo José eu quero, desejo e estudo para um dia ser Front-End, apesar das dificuldades que, não somente eu tenho mas que todos enfrentamos em diferentes aspectos, talvez isso que nós torna único.
               </p>
               <p>
                 Eu comecei a fazer faculdade faz mais ou menos dois anos e estou praticamente graduado, sou proativo e tento me esforçar e ser criativo ao máximo. Não sei tudo de HTML, CSS, ou JS. É o básico eu sei mas espero aprender o quanto antes e crescer profissionalmente junto com a empresa.
@@ -109,7 +147,7 @@
   <article class="preto">
     <div class="atencao">
       <h1>ATENÇÃO</h1>
-      <p>Como foi o primeiro portfólio que fiz cometi certas gafes fiz correndo, por causa de uma vaga que quero em menos de 20 dias, e como acima não sabia fazer responsividade com position absolute usei ele todo em @media oque ocasionou quebras bruscas e um codigo css grande dificultando a manutenção posterior, apesar de estar separado em arquivos de cada parte. Sem contar que tenho certa dificuldades em lógica de programação e assim copiei o código no GPT AI para fazer a mudança na Div adicionados pelos ícones, mas com estudos vou conseguir fazer sozinho!!</p>
+      <p>Como foi o primeiro portfólio que fiz, e fiz correndo, porcausa de uma vaga que <span>quero</span> me candidatar em menos de 20 dias, cometi certas gafes e como acima não sabia fazer responsividade com position absolute usei ele todo em <span>@media</span> oque ocasionou quebras bruscas e um código css grande <span>dificultando</span> a manutenção posterior, apesar de estar separado em arquivos de cada parte. Sem contar que tenho certa dificuldades em <span>lógica de programação</span> e assim copiei o código no <span>GPT AI</span> para fazer a mudança na Div adicionados pelos ícones, mas com estudos vou conseguir fazer sozinho!!</p>
     </div>
   </article>
 
@@ -136,7 +174,6 @@
       </form>
     </article>
   </section>
-
   <script src="js/script.js"></script>
 </body>
 

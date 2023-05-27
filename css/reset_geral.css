@@ -2,7 +2,9 @@
 *,
 *:before,
 *:after,
-input {
+input,
+body,
+html {
   margin: 0;
   padding: 0;
 	border: 0;
@@ -11,4 +13,8 @@ input {
   text-decoration: none;
   font: inherit;
 	vertical-align: baseline;
+}
+
+html {
+  border: #014149 solid 20px
 }

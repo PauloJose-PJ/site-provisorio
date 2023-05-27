@@ -21,7 +21,7 @@ body {
   width: 750px;
   height: 950px;
   border-radius: 80px 0 80px 0;
-  margin: 19.2px auto 72px -300px;
+  margin: 70px auto 72px -300px;
   background-color: #012e40;
   position: relative;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 #list_hard::-webkit-scrollbar-thumb {
-  background-color: #07515a;
+  background-color: #043f47;
 }
 
 #list_hard::-webkit-scrollbar-track {
@@ -135,7 +135,7 @@ body {
   display: none;
 }
 
-@media (min-width: 960px) and (max-width: 1024px) {
+@media (min-width: 964px) and (max-width: 1024px) {
   .container_habilidades {
     width: 850px;
     height: 900px;
@@ -157,15 +157,15 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 960px) {
+@media (min-width: 769px) and (max-width: 964px) {
   .container_habilidades {
     width: 605px;
-    height: 900px;
-    margin-left: 8px;
+    height:800px;
+    margin-left: -80px;
   }
   .hard_skill {
     width: 600px;
-    margin: 32px 78px 32px 100px;
+    margin: 70px 78px 32px 100px;
   }
   #list_hard {
     width: 540px;
@@ -175,9 +175,9 @@ body {
 @media (min-width: 625px) and (max-width: 769px) {
   .container_habilidades {
     width: 473px;
-    height: 960px;
+    height: 850px;
     margin-left: -120px;
-    margin-top: 300px;
+    margin-top: 0px;
   }
   .hard_skill {
     width: 580px;
@@ -193,9 +193,9 @@ body {
 @media (min-width: 481px) and (max-width: 625px) {
   .container_habilidades {
     /* margin-top improvisado */
-    margin-top: 400px;
     width: 425px;
-    height: 780px;
+    height: 700px;
+    margin-top: -210px;
     margin-left: -70px;
   }
   .sobre {
@@ -212,14 +212,14 @@ body {
     width: 400px;
   }
   .hard_skill {
-    width: 450px;
+    width: 500px;
     height: 450px;
-    margin: 32px 0px 32px 283px;
+    margin: 32px 0px 32px 260px;
     left: -260px;
     top: 780px;
   }
   #list_hard {
-    width: 390px;
+    width: 410px;
   }
 }
 
@@ -227,35 +227,40 @@ body {
   .container_habilidades {
     width: 100%;
     height: 640px;
-    margin: 8px 0  0 8px;
+    margin: 8px 0 0 8px;
+    margin-top: -440px;
     border-radius: inherit;
     border-top: #07394d solid 20px;
   }
   .sobre {
-   margin-left: 55px;
+    margin-left: 55px;
   }
   .container_sobreMim {
-    margin-left: 100px;
+    margin-top: -40px;
+    margin-left: 130px;
+  }
+  .sobreMim{
+    width: 250px;
   }
   #list_hard img {
-    width: 80px;
+    width: 65px;
   }
   #list_hard {
-    width: 280px;
-    max-height: 118px;
+    width: 250px;
+    max-height: 105px;
     margin: 5px 5px;
   }
   .hard_skill {
-    width: 300px;
+    width: 260px;
     height: 450px;
     margin-right: 0px;
-    left: -178px;
+    left: -190px;
     top: 780px;
   }
   #text_hard {
     margin-top: 150px;
     margin-left: 8px;
-    width: 280px;
+    width: 255px;
     min-height: 270px;
   }
 }

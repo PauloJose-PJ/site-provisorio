@@ -1,12 +1,16 @@
 /* Organizações dos css */
-@import "./reset.css";
+@import "./reset_geral.css";
 @import "./menu.css";
 @import "./eu.css"; 
 @import "./hardskill.css";
-@import "./informacoes.css";
+@import "./importante.css";
 @import "./contato.css";
 @import "./footer.css";
+@import "./teste.css";
 
+/* Fonts inclusas */
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
 
   /* Para fazer o elemento desaparecer não tera como fazer uma classe construtora como no caso do text onde ele seria o padrão isso ocarrerá muito conteudo na css mas ae tem que ter uma certa dosagem */
   @media (max-width: 860px) {
