@@ -220,13 +220,14 @@ body {
 }
 
 @media (min-width: 319px) and (max-width: 480px) {
+  #primeiro_modulo1 {
+    width:none;
+  }
   .container_habilidades {
-    max-width: 100%;
-    min-width: 319px;
+    width: 240px;
     height: 640px;
-    margin: 0 30px auto 0;
+    margin: 0 -45px auto 0;
     border-radius: inherit;
-    border-top: #07394d solid 20px;
   }
   #list_hard img {
     width: 65px;
@@ -237,11 +238,10 @@ body {
     margin: 5px 5px;
   }
   .hard_skill {
-    width: 260px;
+    width: 280px;
     height: 450px;
-    margin-right: 0px;
-    left: -7px;
-    top: 800px;
+    margin-left: -45px;
+    top: 850px;
   }
   #text_hard {
     margin-top: 150px;

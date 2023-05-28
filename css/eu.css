@@ -159,6 +159,7 @@
 }
 
 @media (min-width: 318px) and (max-width: 481px) {
+  
   .descricao {
     grid-template-columns: unset;
   }
@@ -168,6 +169,7 @@
   }
   .sobre {
     text-align: center;
+    margin-left: -80px;
   }
   .descricao .p1 {
     display: none;
@@ -176,11 +178,10 @@
     margin-top: 10px;
   }
   .container_sobreMim {
-    margin-top: -40px;
-    margin-left: 160px;
+    margin-left: -125px;
   }
   .sobreMim {
-    width: 250px;
+    width: 290px;
     height: 325px;
     margin-top: 60px;
     border-radius: 16px;

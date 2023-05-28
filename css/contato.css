@@ -126,12 +126,7 @@ input.email {
   }
 }
 
-@media (min-width: 481px) and (max-width: 625px) {
-  /* Provisorio */
-  #conteiner_contato {
-    margin-top: 1000px;
-  }
-
+@media (min-width: 480px) and (max-width: 625px) {
   .contato_formulario {
     width: 450px;
     height: 530px;
@@ -161,7 +156,6 @@ input.email {
     margin-left: 13px;
   }
   .messagem {
-    /*????????????*/
     max-width: 300px;
     min-width: 260px;
     height: 110px;
@@ -189,63 +183,66 @@ input.email {
   }
 }
 
-@media (min-width: 319px) and (max-width: 481px) {
-  #conteiner_contato {
-    width: 100%;
+@media (min-width: 319px) and (max-width: 480px) {
+  section#conteiner_contato {
+    margin-top: 0px;
+    width: 275px;
   }
   .contato_formulario {
-    width: 250px;
-    height: 540px;
+    max-width: 300px;
+    min-width: 20px;
+    height: 530px;
+    margin: 40px -5px;
     border-radius: 16px;
   }
   .contato_formulario h2 {
+    max-width: 300px;
+    min-width: 280px;
     border-radius: 16px 16px 0 0;
   }
   .contato_form {
-    width: 200px;
-    min-width: 100px;
-    padding: 0px 30px;
-    margin: 20px;
+    max-width: 100px;
+    min-width: 90px;
+    padding: 0px 15px;
+    margin: 10px;
     text-align: center;
   }
   label {
-    margin-left: -80px;
+    margin-left: -40px;
   }
   input {
-    width: 260px;
+    width: 250px;
     padding: 5px;
   }
   input.nome {
-    margin-left: -14px;
+    margin-left: -15px;
   }
   input.email {
-    margin-left: -14px;
+    margin-left: -15px;
   }
   .messagem {
     max-width: 140px;
-    min-width: 280px;
+    min-width: 250px;
     height: 110px;
     margin-top: 10px;
-    margin-left: -32px;
+    margin-left: -15px;
     border: #000000 solid 2px;
   }
   .button {
     width: 80px;
   }
   .enviar {
-    margin-left: 150px;
+    margin-left: 155px;
   }
   .limpar {
-    margin-left: 150px;
+    margin-left: 155px;
   }
   .links ul {
     width: 270px;
     gap: 22px;
-    margin-left: -20px;
   }
   .links a img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
-
 }
