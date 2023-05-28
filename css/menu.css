@@ -84,16 +84,17 @@ header {
   border: #146161 solid 3px;
 }
 
-@media (min-width: 963px) and (max-width: 1920px) {
+@media (min-width: 964px) and (max-width: 1920px) {
   .logo h1 {
     font-size: 25px;
     width: 220px;
   }
 }
 
-@media (min-width: 678px) and (max-width: 963px) {
+@media (min-width: 678px) and (max-width: 964px) {
   header {
    height: 100px;
+   margin-bottom: 30px;
   }
   .nav_lista {
     background-color: #004048;
@@ -121,6 +122,9 @@ header {
   }
 }
 @media (min-width: 319px) and (max-width: 678px) {
+  header {
+    margin-bottom: 0px;
+   }
   .mobile_menu {
     display: block;
     align-self: center;
