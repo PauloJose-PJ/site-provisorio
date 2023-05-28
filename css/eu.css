@@ -118,9 +118,11 @@
     text-align: right;
     margin-top: 10px;
   }
+  .container_sobreMim {
+    margin-left: 5px;
+  }
   .sobreMim {
     width: 300px;
-    margin-top: -0px;
   }
   .sobreMim p {
     font-size: 17px;
@@ -164,12 +166,6 @@
     width: 170px;
     height: 200px;
   }
-  .container_sobreMim {
-    width: 170px;
-    margin: 225px;
-    right: 100px;
-    top: 12px;
-  }
   .sobre {
     text-align: center;
   }
@@ -179,14 +175,19 @@
   .descricao .p2 {
     margin-top: 10px;
   }
+  .container_sobreMim {
+    margin-top: -40px;
+    margin-left: 160px;
+  }
   .sobreMim {
-    width: 270px;
+    width: 250px;
     height: 325px;
     margin-top: 60px;
     border-radius: 16px;
   }
   .sobreMim p {
     font-size: 16px;
+    margin: 10px;
   }
   .sobreMim::-webkit-scrollbar {
     width: 15px;

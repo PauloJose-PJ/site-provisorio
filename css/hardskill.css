@@ -207,9 +207,6 @@ body {
   .sobre_sub {
     color: #ffffff;
   }
-  .sobreMim {
-    width: 400px;
-  }
   .hard_skill {
     width: 500px;
     height: 450px;
@@ -231,19 +228,6 @@ body {
     border-radius: inherit;
     border-top: #07394d solid 20px;
   }
-  .sobre {
-    margin-left: 40px;
-  }
-  .descricao {
-    margin: unset;
-  }
-  .container_sobreMim {
-    margin-top: -40px;
-    margin-left: 130px;
-  }
-  .sobreMim{
-    width: 250px;
-  }
   #list_hard img {
     width: 65px;
   }
@@ -256,8 +240,8 @@ body {
     width: 260px;
     height: 450px;
     margin-right: 0px;
-    left: -190px;
-    top: 780px;
+    left: -7px;
+    top: 800px;
   }
   #text_hard {
     margin-top: 150px;
