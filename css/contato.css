@@ -48,6 +48,7 @@ section.contato_contato {
 }
 
 label {
+  color: #024444;
   font-weight: bold;
   font-family: "Inika";
   font-size: 20px;
@@ -72,11 +73,11 @@ input:hover {
 }
 
 input.nome {
-  margin-left: 76px;
+  margin-left: 72px;
 }
 
 input.email {
-  margin-left: 68px;
+  margin-left: 67px;
 }
 
 .messagem {
@@ -124,6 +125,7 @@ input.email {
     margin-right: 0px;
     width: 660px;
   }
+  
 }
 
 @media (min-width: 480px) and (max-width: 625px) {
@@ -133,7 +135,6 @@ input.email {
     margin: 40px auto 0px auto;
     border-radius: 16px;
   }
-
   .contato_formulario h2 {
     border-radius: 16px 16px 0 0;
   }
@@ -150,7 +151,7 @@ input.email {
     padding: 5px;
   }
   input.nome {
-    margin-left: 20px;
+    margin-left: 18px;
   }
   input.email {
     margin-left: 13px;

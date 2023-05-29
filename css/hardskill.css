@@ -171,7 +171,7 @@ body {
   }
 }
 
-@media (min-width: 625px) and (max-width: 769px) {
+@media (min-width: 626px) and (max-width: 769px) {
   .container_habilidades {
     width: 473px;
     height: 850px;
@@ -189,7 +189,7 @@ body {
   }
 }
 
-@media (min-width: 480px) and (max-width: 625px) {
+@media (min-width: 480px) and (max-width: 626px) {
   .container_habilidades {
     /* margin-top improvisado */
     width: 425px;
