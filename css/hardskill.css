@@ -135,6 +135,11 @@ body {
   display: none;
 }
 
+#text_hard img {
+  width: 321px;
+  height: 340px;
+}
+
 @media (min-width: 964px) and (max-width: 1024px) {
   .container_habilidades {
     width: 850px;
@@ -251,5 +256,9 @@ body {
     min-height: 280px;
     margin-top: 145px;
     margin-left: 20px;
+  }
+  #text_hard img {
+    width: 221px;
+    height: 240px;
   }
 }
