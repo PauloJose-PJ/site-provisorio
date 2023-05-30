@@ -159,32 +159,35 @@
 }
 
 @media (min-width: 318px) and (max-width: 481px) {
-  
   .descricao {
     grid-template-columns: unset;
   }
   .descricao img {
-    width: 170px;
-    height: 200px;
+    width: 150px;
+    height: 175px;
   }
   .sobre {
     text-align: center;
-    margin-left: -80px;
+    margin-top: -15px;
+    margin-left: -140px;
   }
   .descricao .p1 {
-    display: none;
+    display: 18px;
   }
   .descricao .p2 {
-    margin-top: 10px;
+    margin-top: px;
   }
   .container_sobreMim {
+    width: 100%;
     margin-left: -125px;
   }
   .sobreMim {
-    width: 290px;
-    height: 325px;
-    margin-top: 60px;
+    max-width: 300px;
+    min-width: auto;
+    height: 250px;
+    margin-top: 50px;
     border-radius: 16px;
+    margin-left: 20px;
   }
   .sobreMim p {
     font-size: 16px;

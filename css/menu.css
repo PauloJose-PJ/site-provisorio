@@ -128,14 +128,14 @@ header {
     background-color: rgba(255, 255, 255, 0);
   }
   .nav_lista {
-    width: 100%;
+    width: none;
     height: 70px;
-    background-color:#00262b94;
+    background-color:#00262b00;
     justify-content:space-between;
   }
   .mobile_menu {
     display: block;
-    margin-right: 50px;
+    margin-right: 42px;
   }
   .nav_lista ul {
     display: none;
@@ -147,21 +147,13 @@ header {
     cursor: pointer;
   }
   .logo {
-    text-align: left;
-  }
-  .logo h1 {
-    width: 119px;
-    margin-left: 10px;
-    font-size: 18px;
-    text-align: center;
-    align-self: center;
+    display: none;
   }
   .itens-menu {
     background-color: #00262b;
     padding: 10px;
     width: 190px;
     height: 230px;
-    margin-top: 75px;
   }
   .itens-menu ul {
     margin-top: 20px;

@@ -1,8 +1,7 @@
 .preto {
-  margin-top: 180px;
+  margin-top: 200px;
   width: 100%;
   background-color: black;
-  height: 110vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -23,7 +22,7 @@
 
 .atencao h1 {
   margin: 20px;
-  color: black;
+  color: red;
   font-size: 26px;
   font-family: "Karma";
   font-weight: bold;
@@ -62,7 +61,7 @@
 
 @media (min-width: 315px) and (max-width: 481px) {
   .preto {
-    margin-top: 750px;
+    margin-top: 0px;
     height: 100vh;  
     border-top: #100f0f solid 20px;
     border-bottom: #100f0f solid 20px;

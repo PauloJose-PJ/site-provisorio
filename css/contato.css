@@ -180,13 +180,13 @@ input.email {
 @media (min-width: 319px) and (max-width: 480px) {
   section#conteiner_contato {
     margin-top: 0px;
-    width: 100%;
+    width: 275px;
   }
   .contato_formulario {
     max-width: 300px;
     min-width: 20px;
     height: 530px;
-    margin: 50px auto 0px auto;
+    margin: 40px -5px;
     border-radius: 16px;
   }
   .contato_formulario h2 {
