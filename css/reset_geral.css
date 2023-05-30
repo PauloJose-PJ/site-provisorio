@@ -16,5 +16,11 @@ html {
 }
 
 html {
-  border: #014149 solid 20px
+  border:#00262b solid 20px
+}
+
+@media (min-width: 319px) and (max-width: 678px) {
+  html {
+    border-top: none;
+  }
 }

@@ -1,0 +1,49 @@
+footer#creditos {
+  width: 100%;
+  height: 370px;
+  padding: 0 30px 30px 30px;
+  background-color: #00262b;
+  margin: auto 0;
+}
+
+footer#creditos .creditosH1 {
+  height: 45px;
+  width: 100%;
+  font-size: 24px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgba(31, 28, 28, 0.678);
+}
+
+.sub_footer {
+  color: white;
+  max-width: 960px;
+  min-width: 319px;
+  margin: 25px auto 25px auto;
+  height: 246px;
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.youTubers {
+  width: 177px;
+  height: 173px;
+  padding: 10px;
+  border: white solid 2px;
+}
+
+.euCreditos {
+  width: 236px;
+  height: 246px;
+  padding: 10px;
+  background-color: #d9d9d9;
+}
+
+.artistas {
+  width: 200px;
+  height: 246px;
+  padding: 10px;
+  border: white solid 2px;
+}

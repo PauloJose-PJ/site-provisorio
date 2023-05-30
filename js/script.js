@@ -21,3 +21,16 @@ function openTab(evt, tabName) {
 // Define a aba inicialmente ativa
 document.getElementById("tab1").style.display = "block";
 document.getElementsByClassName("tab")[0].className += " active";
+
+
+// MENU BOLACHA
+function clickMenu() {
+  let menuMobile = document.querySelector(".itens-menu");
+  if (menuMobile.classList.contains("open")) {
+    menuMobile.classList.remove("open");
+    document.querySelector(".icon").src = "./img/menu/bolacha.svg";
+  } else {
+    menuMobile.classList.add("open");
+    document.querySelector(".icon").src = "./img/menu/bolacha.svg";
+  }
+}

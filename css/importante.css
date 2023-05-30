@@ -1,5 +1,5 @@
 .preto {
-  margin-top: 450px;
+  margin-top: 180px;
   width: 100%;
   background-color: black;
   height: 110vh;
@@ -18,7 +18,6 @@
   background-color: white;
   border-top: red solid 6px;
   border-bottom: red solid 6px;
-  position: relative;
   overflow-y: auto;
 }
 
@@ -40,15 +39,33 @@
   text-align:center;
 }
 
+@media (min-width: 769px) and (max-width: 964px) {
+  .preto {
+    margin-top: 280px;
+  }
+}
+
+@media (min-width: 626px) and (max-width: 769px) {
+  .preto {
+    margin-top: 170px;
+  }
+}
+
 @media (min-width: 481px) and (max-width: 625px) {
   .preto {
-    margin-top: 880px;
+    margin-top: 580px;
+    height: 90vh;  
+    border-top: #100f0f solid 15px;
+    border-bottom: #100f0f solid 15px;
   }
 }
 
 @media (min-width: 315px) and (max-width: 481px) {
   .preto {
     margin-top: 750px;
+    height: 100vh;  
+    border-top: #100f0f solid 20px;
+    border-bottom: #100f0f solid 20px;
   }
   .atencao {
     height: 300px;

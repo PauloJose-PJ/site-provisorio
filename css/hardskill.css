@@ -20,7 +20,7 @@ body {
   width: 750px;
   height: 950px;
   border-radius: 80px 0 80px 0;
-  margin: 0px auto 72px -300px;
+  margin: 150px auto 72px -300px;
   background-color: #012e40;
   position: relative;
 }
@@ -37,7 +37,7 @@ body {
 
 #list_hard {
   width: 700px;
-  height: 140px;
+  height: 125px;
   display: inline;
   overflow-x: auto;
   margin: 30px 30px;
@@ -85,6 +85,7 @@ body {
 }
 
 #list_hard img {
+  width: 85px;
   border: #b7000000 solid 3px;
   border-radius: 16px;
   filter: saturate(0.15) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.7));
@@ -139,6 +140,7 @@ body {
     width: 850px;
     height: 900px;
     margin-left: 20px;
+    top: 20px;
   }
   .descricao {
     width: 264px;
@@ -161,6 +163,7 @@ body {
     width: 605px;
     height:800px;
     margin-left: -80px;
+    top: 0px;
   }
   .hard_skill {
     width: 600px;
@@ -176,7 +179,7 @@ body {
     width: 473px;
     height: 850px;
     margin-left: -120px;
-    top: 10px;
+    top: -10px;
   }
   .hard_skill {
     width: 580px;
@@ -194,7 +197,7 @@ body {
     /* margin-top improvisado */
     width: 425px;
     height: 700px;
-    margin-top: 60px;
+    margin-top: 130px;
     margin-left: -70px;
   }
   .sobre {
@@ -224,9 +227,9 @@ body {
     width:none;
   }
   .container_habilidades {
-    width: 240px;
+    width: 245px;
     height: 640px;
-    margin: 0 -45px auto 0;
+    margin: 100px -20px auto 0;
     border-radius: inherit;
   }
   #list_hard img {

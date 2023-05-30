@@ -1,16 +1,10 @@
-section.contato_contato {
-  margin-bottom: 200px;
-}
-
 #conteiner_contato {
   width: 100%;
   height: 690px;
-  background-color: #1F826A;
+  background-color: #1f826a;
   border-top: #d3d4d23c solid 30px;
   border-bottom: #d3d4d23c solid 30px;
   display: flex;
-  /*  margin-top: 150px; */
-  margin-top: 600px;
 }
 
 .contato_formulario {
@@ -56,7 +50,7 @@ label {
 }
 
 input {
-  width: 338px;
+  width: 419px;
   padding: 5px;
   margin: 7px 0px 7px 0px;
   border: black solid 2px;
@@ -73,11 +67,11 @@ input:hover {
 }
 
 input.nome {
-  margin-left: 72px;
+  margin-left: 24px;
 }
 
 input.email {
-  margin-left: 67px;
+  margin-left: 19px;
 }
 
 .messagem {
@@ -86,7 +80,7 @@ input.email {
   height: 110px;
   margin-top: 10px;
   margin-left: 120px;
-  border: #000000 solid 2px;
+  border: #000000 solid 1px;
 }
 
 .button {
@@ -102,13 +96,13 @@ input.email {
   width: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   margin-top: 30px;
 }
 
 .links a img {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.556));
 }
 
@@ -125,7 +119,6 @@ input.email {
     margin-right: 0px;
     width: 660px;
   }
-  
 }
 
 @media (min-width: 480px) and (max-width: 625px) {
@@ -147,7 +140,7 @@ input.email {
     margin-left: 0px;
   }
   input {
-    width: 230px;
+    width: 296px;
     padding: 5px;
   }
   input.nome {
@@ -157,11 +150,11 @@ input.email {
     margin-left: 13px;
   }
   .messagem {
-    max-width: 300px;
-    min-width: 260px;
+    max-width: 350px;
+    min-width: 295px;
     height: 110px;
     margin-top: 10px;
-    margin-left: 119px;
+    margin-left: 83px;
     border: #000000 solid 2px;
   }
   .button {
@@ -187,13 +180,13 @@ input.email {
 @media (min-width: 319px) and (max-width: 480px) {
   section#conteiner_contato {
     margin-top: 0px;
-    width: 275px;
+    width: 100%;
   }
   .contato_formulario {
     max-width: 300px;
     min-width: 20px;
     height: 530px;
-    margin: 40px -5px;
+    margin: 50px auto 0px auto;
     border-radius: 16px;
   }
   .contato_formulario h2 {
