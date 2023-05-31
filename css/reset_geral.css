@@ -16,7 +16,8 @@ html {
 }
 
 html {
-  border:#00262b solid 20px
+  border:#00262b solid 20px;
+  height: 2800px;
 }
 
 @media (min-width: 319px) and (max-width: 678px) {

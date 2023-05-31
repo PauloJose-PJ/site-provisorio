@@ -118,17 +118,21 @@ body {
   line-height: 20px;
 }
 
-.text a {
+.angoraMeio {
   font-weight: 700;
   color: #012e40;
-  text-decoration: underline;
 }
-.text a:hover {
+.angoraMeio:hover {
   color: #5fd3d3;
 }
 
-.text p a:first-child:hover {
-  color: red;
+.tituloEspecial {
+  color: rgb(162, 17, 17);
+  font-weight: bold;
+}
+.tituloEspecial:hover {
+  color:red;
+  font-size: bold;
 }
 
 .text {
@@ -166,7 +170,7 @@ body {
 @media (min-width: 769px) and (max-width: 964px) {
   .container_habilidades {
     width: 605px;
-    height:800px;
+    height: 800px;
     margin-left: -80px;
     top: 0px;
   }
@@ -229,7 +233,7 @@ body {
 
 @media (min-width: 319px) and (max-width: 480px) {
   #primeiro_modulo1 {
-    width:none;
+    width: none;
   }
   .container_habilidades {
     width: 190px;
@@ -249,7 +253,7 @@ body {
   #list_hard {
     width: 265px;
     max-height: 105px;
-    margin: 10px
+    margin: 10px;
   }
   #text_hard {
     width: 240px;

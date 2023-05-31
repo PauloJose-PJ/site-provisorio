@@ -18,7 +18,7 @@ footer#creditos .creditosH1 {
 }
 
 .creditosH1 a:hover {
-  color:rgba(218, 14, 14, 0.857);
+  color: rgba(218, 14, 14, 0.857);
 }
 
 footer p {
@@ -54,14 +54,14 @@ footer p {
 }
 
 .youTubers {
-  width: 177px;
+  width: 280px;
   height: auto;
   padding: 10px;
   border: white solid 2px;
 }
 
 .euCreditos {
-  width: 222px;
+  width: 280px;
   height: auto;
   padding: 10px;
   border: white solid 2px;
@@ -70,7 +70,7 @@ footer p {
 }
 
 .artistas {
-  width: auto;
+  width: 280px;
   height: auto;
   padding: 20px;
   margin: 4px;
@@ -116,16 +116,8 @@ footer p {
     height: 530px;
   }
 }
+
 @media (min-width: 480px) and (max-width: 570px) {
-  html {
-    border: #00262b solid 20px;
-    height: 2800px;
-  }
-  footer#creditos {
-    height: 120px;
-  }
-}
-@media (min-width: 320px) and (max-width: 570px) {
   html {
     border: #00262b solid 20px;
     height: 2650px;
@@ -138,7 +130,7 @@ footer p {
   }
   footer p {
     display: block;
-    color:white;
+    color: white;
     text-align: center;
     padding-top: 7px;
   }

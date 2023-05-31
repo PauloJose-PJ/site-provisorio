@@ -28,22 +28,6 @@ header {
   z-index: 10;
 }
 
-.logo {
-  align-items: left;
-  align-self: center;
-  width: 200px;
-}
-
-.logo h1 {
-  width: 190px;
-  margin-left: 20px;
-  font-size: 28px;
-  font-family: "Karma";
-  color: white;
-  align-self: center;
-  border-bottom: #ffffff solid 2px;
-}
-
 .nav_main {
   width: 100%;
   display: flex;
@@ -66,14 +50,6 @@ header {
   justify-content: right;
 }
 
-.menu {
-  font-weight: bold;
-  border-radius: 4px;
-  font-size: 18px;
-  color: white;
-  cursor: pointer;
-}
-
 .nav_lista .contato {
   background-color: #136a6a;
   border: #0c3e3e solid 3px;
@@ -83,6 +59,30 @@ header {
 .nav_lista .contato:hover {
   background-color: #2e9797;
   border: #146161 solid 3px;
+}
+
+.logo {
+  align-items: left;
+  align-self: center;
+  width: 200px;
+}
+
+.logo h1 {
+  width: 190px;
+  margin-left: 20px;
+  font-size: 28px;
+  font-family: "Karma";
+  color: white;
+  align-self: center;
+  border-bottom: #ffffff solid 2px;
+}
+
+.menu {
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
 }
 
 @media (min-width: 964px) and (max-width: 1920px) {
@@ -102,7 +102,7 @@ header {
   }
   .nav_lista {
     height: 50px;
-    justify-content:space-between;
+    justify-content: space-between;
   }
   .nav_lista ul {
     gap: 15px;
@@ -128,14 +128,19 @@ header {
     background-color: rgba(255, 255, 255, 0);
   }
   .nav_lista {
-    width: none;
-    height: 70px;
-    background-color:#00262b00;
-    justify-content:space-between;
+    background-color: #00262b00;
+  }
+  #button_mobile {
+    cursor: pointer;
   }
   .mobile_menu {
     display: block;
-    margin-right: 42px;
+    position: fixed;
+    /* Posicionando o item fixed */
+    width: 100px;
+    height: 100px;
+    right: -22px;
+    top: 5px;
   }
   .nav_lista ul {
     display: none;
@@ -143,20 +148,18 @@ header {
   .itens-menu ul {
     display: none;
   }
-  #button_mobile {
-    cursor: pointer;
-  }
   .logo {
     display: none;
   }
   .itens-menu {
     background-color: #00262b;
     padding: 10px;
-    width: 190px;
-    height: 230px;
+    width: 240px;
+    height: 300px;
+    border-radius: 0px 0px 0px 8px;
   }
   .itens-menu ul {
-    margin-top: 20px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -177,8 +180,14 @@ header {
     padding-right: 115px;
     cursor: pointer;
   }
+  .grow1 {
+    flex-grow: 1;
+  }
   .menu:hover {
     background-color: #3baeae;
     border: #146161 solid 3px;
+  }
+  .itens-menu #button_mobile button {
+    width: 100%;
   }
 }
