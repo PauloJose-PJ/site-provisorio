@@ -137,9 +137,7 @@ header {
     display: block;
     position: fixed;
     /* Posicionando o item fixed */
-    width: 100px;
-    height: 100px;
-    right: -22px;
+    right: 10px;
     top: 5px;
   }
   .nav_lista ul {

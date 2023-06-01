@@ -97,7 +97,7 @@ input.email {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  margin-top: 30px;
+  margin-top: 85px;
 }
 
 .links a img {
@@ -116,8 +116,10 @@ input.email {
     max-width: 600px;
   }
   .contato_form {
+    padding-top: 0px;
     margin-right: 0px;
-    width: 500px;
+    width: 450px;
+    height: 250px;
   }
   label {
     margin-left: 0px;
@@ -127,7 +129,7 @@ input.email {
     padding: 5px;
   }
   input.nome {
-    margin-left: 20px;
+    margin-left: 14px;
   }
   input.email {
     margin-left: 13px;
@@ -144,7 +146,7 @@ input.email {
     margin: 20px 10px auto 160px;
   }
   .links ul {
-    gap: 15px;
+    margin-top: 60px;
   }
 }
 
@@ -165,25 +167,28 @@ input.email {
     padding-right: 0px;
     display: block;
   }
-  label {
-    margin-left: 0px;
+  label.nome {
+    margin-left: -80px;
+  }
+  label.email {
+    margin-left: -85px;
   }
   input {
-    width: 280px;
+    width: 295px;
     padding: 5px;
   }
   input.nome {
-    margin-left: 20px;
+    margin-left: 13px;
   }
   input.email {
-    margin-left: 13px;
+    margin-left: 10px;
   }
   .messagem {
     max-width: 350px;
     min-width: 295px;
     height: 110px;
     margin-top: 10px;
-    margin-left: 83px;
+    margin-left: -5px;
     border: #000000 solid 2px;
   }
   .button {
@@ -193,12 +198,15 @@ input.email {
   .enviar {
     margin: 20px 10px auto 160px;
   }
+  .limpar {
+    margin-left: 160px 
+  }
   .links ul {
     width: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .links a img {
     width: 60px;
@@ -214,7 +222,7 @@ input.email {
   .contato_formulario {
     max-width: 300px;
     min-width: 20px;
-    height: 530px;
+    height: 520px;
     margin: 50px auto;
     border-radius: 16px;
   }
@@ -247,7 +255,7 @@ input.email {
     max-width: 140px;
     min-width: 240px;
     height: 110px;
-    margin-top: 10px;
+    margin-top: 45px;
     margin-left: -15px;
     border: #000000 solid 2px;
   }
@@ -262,7 +270,7 @@ input.email {
   }
   .links ul {
     width: 270px;
-    gap: 22px;
+    gap: 15px;
   }
   .links a img {
     width: 40px;

@@ -89,8 +89,8 @@
 
 @media (min-width: 769px) and (max-width: 960px) {
   .sobreMim {
-    width: 460px;
-    margin-left: -22px;
+    width: 435px;
+    margin-left: 0px;
   }
   .descricao {
     width: 240px;
@@ -146,11 +146,15 @@
 }
 
 @media (min-width: 481px) and (max-width: 635px) {
+  .container_sobreMim{
+    width: 300px;
+  }
   .descricao {
     grid-template-columns: none;
-    width: 500px;
+    width: 400px;
     height: 490px;
     margin-top: 31px;
+    margin-right: 0px;
     gap: 21px;
   }
   .descricao img {
@@ -163,6 +167,7 @@
   }
   .descricao .p2 {
     margin-top: 10px;
+    font-size: 30px;
   }
   .sobreMim {
     width: 405px;
@@ -200,16 +205,15 @@
     margin-top: 12px;
   }
   .container_sobreMim {
-    width: 100%;
+    width: 300px;
     margin-left: -125px;
   }
   .sobreMim {
-    max-width: 300px;
+    max-width: 295px;
     min-width: auto;
     height: 250px;
-    margin-top: 50px;
+    margin: 50px 0px 10px 20px;
     border-radius: 16px;
-    margin-left: 20px;
   }
   .sobreMim p {
     font-size: 16px;

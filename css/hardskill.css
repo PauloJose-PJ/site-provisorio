@@ -179,7 +179,7 @@ body {
   }
   .hard_skill {
     width: 600px;
-    margin: 70px 78px 32px 100px;
+    margin: 70px 0px 32px 100px;
   }
   #list_hard {
     width: 540px;
@@ -260,7 +260,7 @@ body {
     margin: 10px;
   }
   #text_hard {
-    width: 240px;
+    width: 255px;
     min-height: 280px;
     margin-top: 145px;
     margin-left: 20px;
