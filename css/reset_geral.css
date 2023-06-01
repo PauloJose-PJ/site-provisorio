@@ -15,9 +15,10 @@ html {
 	vertical-align: baseline;
 }
 
-html {
+body {
   border:#00262b solid 20px;
-  height: 2800px;
+  width: auto;
+  height: auto;
 }
 
 @media (min-width: 319px) and (max-width: 678px) {

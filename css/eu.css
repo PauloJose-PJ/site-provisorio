@@ -65,6 +65,9 @@
 }
 
 @media (min-width: 960px) and (max-width: 1024px) {
+  .container_sobreMim { 
+    width: 500px;
+  }
   .descricao {
     width: 240px;
     height: 474px;
@@ -75,7 +78,7 @@
     height: 180px;
   }
   .sobreMim {
-    width: 470px;
+    width: 450px;
     margin-right: 200px;
   }
   .container_sobreMim .sobreMim img {
@@ -162,8 +165,10 @@
     margin-top: 10px;
   }
   .sobreMim {
-    width: 420px;
-    margin-left: -30px;
+    width: 405px;
+    margin-left: -40px;
+    margin-right: 0px;
+    border-right: 0px;
   }
   .sobreMim p {
     font-size: 16px;
@@ -183,15 +188,16 @@
     height: 175px;
   }
   .sobre {
+    width: 280px;
     text-align: center;
     margin-top: -15px;
-    margin-left: -140px;
+    margin-left: -95px;
   }
   .descricao .p1 {
     display: 18px;
   }
   .descricao .p2 {
-    margin-top: px;
+    margin-top: 12px;
   }
   .container_sobreMim {
     width: 100%;

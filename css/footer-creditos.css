@@ -92,12 +92,6 @@ footer p {
   color: rgb(200, 197, 197);
 }
 
-@media (min-width: 785px) and (max-width: 1030px) {
-  html {
-    border: #00262b solid 20px;
-    height: 2735px;
-  }
-}
 @media (min-width: 570px) and (max-width: 785px) {
   .artistas ul {
     list-style-position: inside;
@@ -108,20 +102,12 @@ footer p {
     text-align: center;
     color: rgb(200, 197, 197);
   }
-  html {
-    border: #00262b solid 20px;
-    height: 3070px;
-  }
   footer#creditos {
     height: 530px;
   }
 }
 
 @media (min-width: 480px) and (max-width: 570px) {
-  html {
-    border: #00262b solid 20px;
-    height: 2650px;
-  }
   footer#creditos {
     height: 120px;
   }
