@@ -50,13 +50,13 @@ header {
   justify-content: right;
 }
 
-.nav_lista .contato {
+.nav_lista .contato_m {
   background-color: #136a6a;
   border: #0c3e3e solid 3px;
   padding: 5px 35px;
 }
 
-.nav_lista .contato:hover {
+.nav_lista .cocontato_mntato:hover {
   background-color: #2e9797;
   border: #146161 solid 3px;
 }

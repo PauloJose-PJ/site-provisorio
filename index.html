@@ -23,16 +23,16 @@
         <div id="menuItens">
           <ul>
             <li>
-              <a href="#" class="nav contato menu">Sobre</a>
+              <a href="#" class="nav contato_m menu">Sobre</a>
             </li>
             <li>
-              <a href="#" class="nav contato menu">HardSkill</a>
+              <a href="#" class="nav contato_m menu">HardSkill</a>
             </li>
             <li>
-              <a href="#" class="nav contato menu">Atenção</a>
+              <a href="#" class="nav contato_m menu">Atenção</a>
             </li>
             <li>
-              <a href="#" class="nav contato menu">Contato</a>
+              <a href="#" class="nav contato_m menu">Contato</a>
             </li>
           </ul>
         </div>
@@ -43,16 +43,16 @@
       <div class="itens-menu open">
         <ul>
           <li>
-            <a href="#" class="contato menu">Sobre</a>
+            <a href="#" class="contato_m menu">Sobre</a>
           </li>
           <li>
-            <a href="#" class="contato menu">HardSkill</a>
+            <a href="#" class="contato_m menu">HardSkill</a>
           </li>
           <li>
-            <a href="#" class="contato menu">Atenção</a>
+            <a href="#" class="contato_m menu">Atenção</a>
           </li>
           <li>
-            <a href="#" class="contato menu">Contato</a>
+            <a href="#" class="contato_m menu">Contato</a>
           </li>
         </ul>
       </div>
@@ -177,17 +177,30 @@
   </article>
 
   <section id="conteiner_contato">
-    <article class="contato_formulario">
+    <article class="contato">
       <h2>CONTATO</h2>
       <!--<form action="mail:paulojose.pj@protonmail.com" method="text/plain">-->
       <form class="contato_form" action="https://formsubmit.co/paulojose.pj@protonmail.com" method="POST">
-        <label class="nome" for="name">Nome: </label>
-        <input class="nome" name="name" type="text" required /><br>
-        <label class="email" for="email">E-mail: </label>
-        <input class="email" name="email" type="email" required /><br>
-        <textarea class="messagem" name="mensagem" rows="5" required placeholder="Mande uma proposta para meu email por aqui, ou manualmente pelo email paulojose.pj@protonmail.com, ou mande uma mensagem pelo whatsapp e não esqueça de pegar o curriculo no quarto item também abaixo!!"></textarea><br>
-        <input class="button enviar" type="submit" value="Enviar" target="_blank" />
-        <input class="button limpar" type="reset" value="Limpar" />
+
+        <fieldset class="grupo">
+          <div class="campo">
+            <label class="nome" for="text">Nome: </label>
+            <input class="nome" name="text" type="text" required /><br>
+          </div>
+          <div class="campo">
+            <label class="email" for="email">E-mail: </label>
+            <input class="email" name="email" type="email" required /><br>
+          </div>
+          <div class="campo">
+            <textarea class="menssagem" name="mensagem" rows="5" required placeholder="Mande uma proposta para meu email por aqui, ou manualmente pelo email paulojose.pj@protonmail.com, ou mande uma mensagem pelo whatsapp e não esqueça de pegar o curriculo no item logo abaixo!!"></textarea><br>
+          </div>
+        </fieldset>
+
+        <div class="botoes">
+          <button class="enviar" type="submit" target="_blank">Enviar</button>
+          <button class="limpar" type="reset">Limpar</button>
+        </div>
+
         <div class="links">
           <ul>
             <li><a href="https://github.com/PauloJose-PJ" target="_blank"><img src="img/contato/githubSite.png" alt="GitHubSite"></a></li>
@@ -197,11 +210,12 @@
           </ul>
         </div>
       </form>
+
     </article>
   </section>
   <footer id="creditos">
     <p>Clique Abaixo</p>
-    <div class="creditosH1">  
+    <div class="creditosH1">
       <h1><a href="creditos.html">Créditos</a></h1>
     </div>
     <div class="sub_footer">
@@ -212,7 +226,8 @@
           <li><a href="https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" title="ensino curso em vídeo" target="_blank">Curso em Vídeo</a></li>
           <li><a href="https://openai.com/" title="ajuda tech" target="_blank">FreeCodeCamp</a></li>
           <li><a href="https://www.freecodecamp.org/portuguese/news/como-usar-a-propriedade-position-do-css-para-alinhar-elementos/#:~:text=Um%20elemento%20com%20position%3A%20absolute%20%C3%A9%20removido%20do%20fluxo%20normal,documento%20ser%C3%A1%20seu%20elemento%20pai." title="ensino adriana saty" target="_blank">Adriana Saty</a></li>
-          <li><a href="https://www.youtube.com/watch?v=P9cSVCGj0I0&t=880s" ti>Larissa Kich</a></li>
+          <li><a href="https://www.youtube.com/watch?v=P9cSVCGj0I0&t=880s">Larissa Kich</a></li>
+          <li><a href="href=https://www.youtube.com/watch?v=wwqOJ2o84S4&t=1562s" target="_blank" title="ajuda Rafaela">Rafela Bailarini</a></li>
           <li><a href="https://openai.com/" title="ajuda tech" target="_blank">Gpt AI</a></li>
         </ul>
       </div>
